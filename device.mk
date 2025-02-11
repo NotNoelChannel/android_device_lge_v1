@@ -32,7 +32,7 @@ TARGET_SCREEN_HEIGHT := 320
 TARGET_SCREEN_WIDTH := 240
 
 PRODUCT_COPY_FILES += \
-    device/lge/v1/rootdir/system/usr/keylayout/mms100s_ts.kl:system/usr/keylayout/mms100s_ts.kl
+    device/lge/e400/rootdir/system/usr/keylayout/mms100s_ts.kl:system/usr/keylayout/mms100s_ts.kl
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
