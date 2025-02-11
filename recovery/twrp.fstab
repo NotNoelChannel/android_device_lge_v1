@@ -4,6 +4,7 @@
 /boot		emmc	/dev/block/mmcblk0p9
 /recovery	emmc	/dev/block/mmcblk0p17
 /system		ext4 	/dev/block/mmcblk0p14
-/data		ext4	/dev/block/mmcblk0p20	length=-16384
+/emmc   	vfat	/dev/block/mmcblk0p20                         flags=display="SDcard";storage;wipeingui
+/data		ext4	/dev/block/mmcblk0p21	length=-16384
 /cache		ext4	/dev/block/mmcblk0p16
-/external-sd	vfat	/dev/block/mmcblk1p1	/dev/block/mmcblk1	flags=display="SDcard";storage;removable
+/external-sd	vfat	/dev/block/mmcblk1p1	/dev/block/mmcblk1	flags=display="SDcard2";storage;removable

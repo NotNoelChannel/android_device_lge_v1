@@ -32,12 +32,9 @@ TARGET_SCREEN_HEIGHT := 320
 TARGET_SCREEN_WIDTH := 240
 
 PRODUCT_COPY_FILES += \
-    device/lge/v1/rootdir/root/init.v1ds.sh:root/init.v1ds.sh
-
-PRODUCT_COPY_FILES += \
     device/lge/v1/rootdir/system/usr/keylayout/mms100s_ts.kl:system/usr/keylayout/mms100s_ts.kl
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density="120" \
+    ro.sf.lcd_density="125" \
     ro.screen.layout="normal"
